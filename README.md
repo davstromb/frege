@@ -1,4 +1,4 @@
-# An introduction to Frege
+# Hello Frege
 _"Frege is a Haskell for the JVM._
 
 _Like any Haskell, it is purely functional, enjoys a strong static type system with global type inference and non-strict - also known as lazy - evaluation._
