@@ -2,8 +2,8 @@
 
 ### Get started
 
-  1. hej
-  2. då
+  1. Clone this repository
+  2. Download [Maven](http://maven.apache.org/download.cgi)
 
 ### References
 
