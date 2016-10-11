@@ -9,9 +9,8 @@ _Frege compiles to Java, runs on the JVM, and uses any Java library you want. It
 
   1. Clone this repository `git clone https://github.com/davstromb/frege.git`.
   2. Download and install [Maven](http://maven.apache.org/download.cgi).
-  3. Add `exem.jar` to your local Maven repository by running `mvn install:exem.jar -DskipTests`.
-  4. Run `mvn compile` in the root directory.
-  5. Test the program by running `hello_world.sh`. _"Hello, World!"_ should now be printed to the terminal.
+  3. Run `install.sh` in the root directory.
+  4. Test the program by running `hello_world.sh`. _"Hello, World!"_ should now be printed to the terminal.
 
 Congratulations! The Frege file `helloworld.fr` has now been compiled to `HelloWorld.java` and `HelloWorld.class`.
 
