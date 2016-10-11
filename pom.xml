@@ -15,7 +15,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>frege-tutorial</name>
+    <name>frege</name>
     <url>https://github.com/davstromb/frege</url>
 
 	<prerequisites>
