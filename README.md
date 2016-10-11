@@ -1,6 +1,6 @@
 # Frege Hello world
 
-### Get started
+### Get started: Hello world
 
   1. Clone this repository `git clone https://github.com/davstromb/frege.git`
   2. Download and install [Maven](http://maven.apache.org/download.cgi)
