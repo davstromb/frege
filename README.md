@@ -1,7 +1,9 @@
 # Frege Hello world
-_"Frege is a non-strict, purely functional programming language for the Java virtual machine in the spirit of Haskell. It is considered a Haskell dialect or simply "a" Haskell for the Java virtual machine._
+_"Frege is a Haskell for the JVM.
 
-_Frege has a strong static type system with type inference. Higher rank types are supported, though type annotations are required for that. Frege programs are compiled to Java bytecode and run in a Java virtual machine. Existing Java classes and methods can be used seamlessly from Frege after their types have been properly declared."_ [Wikipedia](https://en.wikipedia.org/wiki/Frege_(programming_language))
+Like any Haskell, it is purely functional, enjoys a strong static type system with global type inference and non-strict - also known as lazy - evaluation.
+
+Frege compiles to Java, runs on the JVM, and uses any Java library you want. It can be used inside any Java project."_ [Wikipedia](https://en.wikipedia.org/wiki/Frege_(programming_language))
 
 ### Get started: Hello world
 
