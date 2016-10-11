@@ -1,4 +1,4 @@
-module Ex1 where
+module SimpleMath where
 
 multiply :: Long -> Long -> Long
 multiply a b = a * b

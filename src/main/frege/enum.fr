@@ -1,0 +1,7 @@
+module FregeEnum where
+
+data Color = Red | Green | Blue
+    where
+        favored Red = true
+        favored Blue = true
+        favored _    = false

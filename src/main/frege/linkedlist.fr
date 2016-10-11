@@ -1,4 +1,4 @@
-module FList where
+module LinkedList where
 
 
 data LinkedList a = native java.util.LinkedList where
@@ -13,8 +13,5 @@ data LinkedList a = native java.util.LinkedList where
         loop [] jlist = return jlist
 
 
-
-
---x :: Mutable s (LinkedList a) -> a -> Mutable s (LinkedList a)
---x y b = LinkedList.add y b
-
+getLinkedList :: Mutable s (LinkedList a) ->  Mutable s (LinkedList a)
+getLinkedList list  = list
