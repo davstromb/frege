@@ -18,7 +18,7 @@ Run `mvn compile` in the root directory in order to compile your Frege files (.f
 
 ### Code Examples
 
-  - *Hello World*
+  - **Hello World**
     The Hello World simply prints out the String from `helloword.fr`
   
 ### References
