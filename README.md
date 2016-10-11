@@ -4,7 +4,7 @@
 
   1. Clone this repository `git clone https://github.com/davstromb/frege.git`
   2. Download and install [Maven](http://maven.apache.org/download.cgi)
-  3. Add `exem.jar` to your local Maven repository by running `mvn install:exem.jar`
+  3. Add `exem.jar` to your local Maven repository by running `mvn install:exem.jar -DskipTests`
   4. Run `mvn compile` in the root directory
   5. Test the program by running `hello_world.sh`
 
