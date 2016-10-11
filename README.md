@@ -15,9 +15,9 @@ _Frege compiles to Java, runs on the JVM, and uses any Java library you want. It
 Congratulations! The Frege file `helloworld.fr` has now been compiled to `HelloWorld.java` and `HelloWorld.class`.
 
 ### How to
-Run `mvn compile` in the root directory in order to compile your Frege files (.fr) to .java and .class. The source files are placed in `target/generated-sources/frege/` and all compiled java classes ends up in `target/classes/`.
-
 In order to run and compile the application, simply run `run.sh`.
+
+Run `mvn compile` in the root directory in order to compile your Frege files (.fr) to .java and .class. The source files are placed in `target/generated-sources/frege/` and all compiled java classes ends up in `target/classes/`.
 
 ### References
 
