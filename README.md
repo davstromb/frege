@@ -5,7 +5,7 @@
   1. Clone this repository `git clone https://github.com/davstromb/frege.git`
   2. Download and install [Maven](http://maven.apache.org/download.cgi)
   3. Run `mvn compile` in the root directory
-  4. Test the program by running `bash run.sh`
+  4. Test the program by running `run.sh`
 
 ### References
 
