@@ -1,0 +1,7 @@
+module Ex1 where
+
+multiply :: Long -> Long -> Long
+multiply a b = a * b
+
+addition :: Long -> Long -> Long
+addition a b = a + b

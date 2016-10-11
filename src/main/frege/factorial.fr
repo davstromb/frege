@@ -1,0 +1,9 @@
+module Factorial where
+
+factorial :: Integer -> Integer
+factorial 0 = 1
+factorial n = n * factorial (n-1)
+
+primitive_factorial :: Int -> Int
+                                                     primitive_factorial 0 = 1
+                                                     primitive_factorial n = n * primitive_factorial (n-1)

@@ -1,0 +1,20 @@
+module FList where
+
+
+data LinkedList a = native java.util.LinkedList where
+    native add :: Mutable s (LinkedList a) -> a -> ST s Bool
+    native get :: Mutable s (LinkedList a) -> Int -> ST s (Maybe a) throws
+        IndexOutOfBoundsException
+    native new :: () -> STMutable s (LinkedList a)
+
+    fromFregeList :: [a] -> STMutable s (LinkedList a)
+    fromFregeList xs = LinkedList.new () >>= loop xs where
+        loop (x:xs) jlist = LinkedList.add jlist x >> loop xs jlist
+        loop [] jlist = return jlist
+
+
+
+
+--x :: Mutable s (LinkedList a) -> a -> Mutable s (LinkedList a)
+--x y b = LinkedList.add y b
+
