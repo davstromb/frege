@@ -2,7 +2,7 @@
 
 ### Get started
 
-  1. Clone this repository
+  1. Clone this repository `git clone https://github.com/davstromb/frege.git`
   2. Download [Maven](http://maven.apache.org/download.cgi)
 
 ### References
