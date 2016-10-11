@@ -19,6 +19,7 @@ Run `mvn compile` in the root directory in order to compile your Frege files (.f
 ### References
 
   - [The Frege Project](http://frege-lang.org)
+  - [Frege Goodness](https://www.gitbook.com/book/dierk/fregegoodness/details)
   - [Frege: Purely Functional Programming for the JVM (youtube)](https://www.youtube.com/watch?v=ltYnalI5YSA)
   - [An introduction to Frege (pdf) ](http://web.mit.edu/frege-lang_v3.21/Introduction_Frege.pdf)
   - [Online Frege REPL](http://try.frege-lang.org)
