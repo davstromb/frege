@@ -3,6 +3,6 @@
 
 ### About
 
-  - [Online Frege REPL]: http://try.frege-lang.org
+  - [Online Frege REPL](http://try.frege-lang.org)
 
 ### Get started
