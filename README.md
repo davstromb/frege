@@ -3,7 +3,7 @@ _"Frege is a Haskell for the JVM._
 
 _Like any Haskell, it is purely functional, enjoys a strong static type system with global type inference and non-strict - also known as lazy - evaluation._
 
-_Frege compiles to Java, runs on the JVM, and uses any Java library you want. It can be used inside any Java project."_ [Ingo Wechsung](https://github.com/Frege/frege)
+_Frege compiles to Java, runs on the JVM, and uses any Java library you want. It can be used inside any Java project."_ [The Frege Project](https://github.com/Frege/frege)
 
 ### Get started: Hello world
 
