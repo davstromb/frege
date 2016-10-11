@@ -8,6 +8,9 @@
   4. Run `mvn compile` in the root directory
   5. Test the program by running `hello_world.sh`. _"Hello world"_ should now be printed to the terminal.
 
+### About
+  Run `mvn compile` in the root directory in order to compile your Frege files (.fr) to .java and .class. 
+
 ### References
 
   - [Frege: Purely Functional Programming for the JVM (youtube)](https://www.youtube.com/watch?v=ltYnalI5YSA)
