@@ -18,6 +18,8 @@ Congratulations! The Frege file `helloworld.fr` has now been compiled to `HelloW
 ### How to
 Run `mvn compile` in the root directory in order to compile your Frege files (.fr) to .java and .class. The source files are placed in `target/generated-sources/frege/` and all compiled java classes ends up in `target/classes/`.
 
+In order to run and compile the application, simply run `run.sh`.
+
 ### References
 
   - [The Frege Project](http://frege-lang.org)
