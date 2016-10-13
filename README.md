@@ -27,3 +27,6 @@ Run `mvn compile` in the root directory in order to compile your Frege files (.f
   - [An introduction to Frege (pdf) ](http://web.mit.edu/frege-lang_v3.21/Introduction_Frege.pdf)
   - [Online Frege REPL editor](http://try.frege-lang.org)
   - [The Frege Programming Language by Ingo Wechsung (pdf)](http://web.mit.edu/frege-lang_v3.21/Language.pdf)
+  - [Haskell (Official Page)](https://www.haskell.org/)
+  - [Learn You a Haskell](http://learnyouahaskell.com/)
+  - [Haskel video tutorial](http://www.newthinktank.com/2015/08/learn-haskell-one-video/)
