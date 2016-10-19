@@ -3,8 +3,8 @@ import Data.List
 import System.IO
 
 {-
- ghc --make test
- ./test
+ compile: ghc --make test
+ run: 		./test
 -}
 
 -- MAIN

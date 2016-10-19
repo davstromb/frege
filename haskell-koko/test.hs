@@ -3,13 +3,12 @@ import Data.List
 import System.IO
 
 {-
- ghc --make test
- ./test
+ compile: ghc --make test
+ run: 		./test
 -}
 
 -- MAIN
 main = do
 	putStrLn "Vad heter du? "
 	name <- getLine
-
 	putStrLn ("Tjabba tjena " ++ name)
