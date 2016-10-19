@@ -19,9 +19,13 @@ In order to run and compile the application, simply run `run.sh`.
 
 Run `mvn compile` in the root directory in order to compile your Frege files (.fr) to .java and .class. The source files are placed in `target/generated-sources/frege/` and all compiled java classes ends up in `target/classes/`.
 
-### Frege REPL
-The folder `frege-repl-1.4-SNAPSHOT` contains frege REPL.
-To run just run: `frege-repl-1.4-SNAPSHOT/bin/frege-repl`
+### [Frege REPL](https://github.com/Frege/frege-repl)
+The command line tool for Frege. (You will need JDK 8 for this)
+1. Download latest release from [Github of Frege](https://github.com/Frege/frege-repl/releases)
+2. unzip and `cd` to the folder `frege-repl-<version>` contains frege REPL.
+3. Run: `bin/frege-repl`
+
+Or just use their [online REPL](http://try.frege-lang.org/)
 
 ### References
 
