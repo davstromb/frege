@@ -1,11 +1,15 @@
+import Data.Function
+import Data.List
+import System.IO
+
 {-
- ghc --make haskoko
- ./haskoko
+ ghc --make test
+ ./test
 -}
 
 -- MAIN
 main = do
-	putStrLn Vat heter du: "
+	putStrLn "Vad heter du? "
 	name <- getLine
 
-	putStrLn ("Hej " ++ name)
+	putStrLn ("Tjabba tjena " ++ name)

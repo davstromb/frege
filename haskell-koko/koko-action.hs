@@ -1,40 +1,17 @@
-import Data.List
-import System.IO
-
- -- Int -2^63 2^63
-maxInt = maxBound :: Int
-
--- Integer (heltal utan gränser, eller datorns minne ska klara av det..)
-
--- Float
--- Double (11 decimaler)
-
--- Bool True False
--- Char 'a'
--- Tuple
--- Kinda Enum ...
-
-always13 :: Int
-always13 = 13
-
-sumOfNbrs = sum [1..1000]
+-- Typ inferense
+times a b = a * b
+times 2 3
+:type times
+twotimes x = 2.0 * x
+:type twotimes 3
 
 
 ----- FUNCTIONS -----
-whatToDo :: Int -> String
-whatToDo 900 = "Fika"
-whatToDo 1200 = "Lunch"
-whatToDo 1000 = "Blåbär"
-whatToDo 2200 = "Be a Hero"
 
 -- Tuples
 multiTuples :: (Int, Int) -> (Int, Int) -> (Int, Int)
 multiTuples (x, y) (x2, y2) = (x * x2, y * y2)
 
-
--- Rekursiv funktion
-factorial 0 = 1
-factorial n = n * factorial (n - 1)
 
 -- Guards
 toDo :: Int -> String
@@ -55,12 +32,13 @@ listGgr2 = map ggr2 [1,2,3,4,5]
 
 -- Tar första värdet i listan och dubblar och resten är xs
 -- kapar sen listan och nästa element blir x... (rekursion)
-
 dubbla :: [Int] -> [Int]
 dubbla [] = []
 dubbla (x:xs) = ggr2 x : dubbla xs
 
 
+-- Fibonacci igen
+fib = 1:1:zipWith (+) fib (tail fib)
 
 -- ---------- LAMBDA ----------
 -- Namnlösa funktioner
