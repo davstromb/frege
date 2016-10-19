@@ -1,3 +1,6 @@
+#Haskell
+*.o
+*.hi
 
 # Created by https://www.gitignore.io/api/intellij,java,maven,gradle
 
@@ -50,7 +53,7 @@ fabric.properties
 
 # *.iml
 # modules.xml
-# .idea/misc.xml 
+# .idea/misc.xml
 # *.ipr
 
 

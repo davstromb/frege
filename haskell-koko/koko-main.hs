@@ -11,5 +11,4 @@ import System.IO
 main = do
 	putStrLn "Vad heter du? "
 	name <- getLine
-
 	putStrLn ("Tjabba tjena " ++ name)

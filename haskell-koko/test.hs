@@ -2,7 +2,6 @@ import Data.Function
 import Data.List
 import System.IO
 
-— MAIN —
 {-
  ghc --make test
  ./test
