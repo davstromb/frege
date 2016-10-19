@@ -21,6 +21,7 @@ Run `mvn compile` in the root directory in order to compile your Frege files (.f
 
 ### [Frege REPL](https://github.com/Frege/frege-repl)
 The command line tool for Frege. (You will need JDK 8 for this)
+
 1. Download latest release from [Github of Frege](https://github.com/Frege/frege-repl/releases)
 2. unzip and `cd` to the folder `frege-repl-<version>` contains frege REPL.
 3. Run: `bin/frege-repl`
